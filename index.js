@@ -46,11 +46,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-    res.send('hiteshdotcom')
+    res.send('Kunjdotcom')
 })
 
 app.get('/login', (req, res) => {
-    res.send('<h1>please login at chai aur code</h1>')
+    res.send('<h1>please login</h1>')
 })
 
 app.get('/youtube', (req, res) => {
